@@ -1,17 +1,8 @@
 public class StackItem {
-
     private Object data;
     private StackItem next;
-    public StackItem(Object data) {
-        this.data = data;
-    }
 
-    public Object getData() {
-        return data;
-    }
-
-    public void setData(Object data) {
-        this.data = data;
+    public StackItem(Object item) {
     }
 
     public StackItem getNext() {
@@ -20,5 +11,13 @@ public class StackItem {
 
     public void setNext(StackItem next) {
         this.next = next;
+    }
+
+    public Object getData() {
+        return data;
+    }
+
+    public void setData(Object data) {
+        this.data = data;
     }
 }
